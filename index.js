@@ -70,8 +70,8 @@ var keysObjt = {
           getRecipe('salami');
         }
       },
-      error: function() {
-        console.log('error');
+      error: function(error) {
+        console.log(error);
       }
     });
   };
