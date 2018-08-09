@@ -1,0 +1,11 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "App that pairs movies to food based on genre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt",
+  "license": "MIT"
+}
