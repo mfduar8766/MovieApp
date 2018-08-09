@@ -56,7 +56,7 @@ var keysObjt = {
   }
     $.ajax({
       type: "GET",
-      url: "http://www.omdbapi.com/?apikey=" + keysObjt.movieKey + "&t=" + input,
+      url: "https://www.omdbapi.com/?apikey=" + keysObjt.movieKey + "&t=" + input,
       success: function(movie) {
         var checkMovie = movie.Genre.split(", ");
         if (keys.includes(checkMovie[0])) {
